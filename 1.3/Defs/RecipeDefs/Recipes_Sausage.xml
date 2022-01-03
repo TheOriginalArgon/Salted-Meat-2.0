@@ -18,6 +18,7 @@
         <filter>
           <thingDefs>
             <li>SM_Salt</li>
+            <li MayRequire="VanillaExpanded.VCookE">VCE_Salt</li>
           </thingDefs>
         </filter>
         <count>10</count>
@@ -49,6 +50,7 @@
       </categories>
       <thingDefs>
         <li>SM_Salt</li>
+        <li MayRequire="VanillaExpanded.VCookE">VCE_Salt</li>
       </thingDefs>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
@@ -58,6 +60,7 @@
       </categories>
       <thingDefs>
         <li>SM_Salt</li>
+        <li MayRequire="VanillaExpanded.VCookE">VCE_Salt</li>
       </thingDefs>
       <disallowedThingDefs>
         <li>Meat_Human</li>
