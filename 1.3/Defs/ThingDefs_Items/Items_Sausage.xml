@@ -44,6 +44,7 @@
             <texPath>Things/Items/SM_Sausage</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
+        <socialPropernessMatters>true</socialPropernessMatters>
         <statBases>
             <MarketValue>6</MarketValue>
             <Mass>0.05</Mass>
@@ -68,8 +69,8 @@
             </li>
         </comps>
         <ingestible>
-            <foodType>Meat</foodType>
-            <preferability>DesperateOnly</preferability>
+            <foodType>Meal</foodType>
+            <preferability>MealFine</preferability>
             <ingestEffect>EatMeat</ingestEffect>
             <ingestSound>RawMeat_Eat</ingestSound>
         </ingestible>
